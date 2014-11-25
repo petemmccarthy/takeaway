@@ -15,7 +15,7 @@ describe 'menu' do
 			{Dish: 'Naan', Price: 2.95},
 			{Dish: 'Rice', Price: 1.95} ]
 		dishes.each { |line| expect(self).to receive(:puts).with(line)}
-		show_menu
+		show_dishes
 	end
 
 	it 'expect order to be empty when created' do
