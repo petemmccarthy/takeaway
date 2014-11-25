@@ -1,7 +1,7 @@
 class Menu
 
 	def dishes
-		@dishes = [
+		dishes = [
 		{name: 'Madras', price: 6.95},
 		{name: 'Tikka', price: 5.95},
 		{name: 'Naan', price: 2.95},
@@ -9,6 +9,8 @@ class Menu
 		]
 	end
 
-
+	def show_dishes
+		 	dishes.each { |dish| puts "#{dish.name}", "#{dish.price}" }
+	end
 
 end
