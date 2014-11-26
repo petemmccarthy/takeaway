@@ -1,38 +1,14 @@
 require 'menu'
 
 describe 'menu' do
-	
-	let(:menu) {Menu.new}
 
-	it 'is not empty when created' do
-		expect(menu.dishes).not_to be_empty
+	it 'is empty when created' do
+		menu = Menu.new(dishes)
 		expect(menu.dishes).to be_an_instance_of Array
 	end
 
-	it 'can show the dishes of the menu' do
-		dishes = [ {dish: 'Madras', price: 7},
-			{dish: 'Tikka', price: 6},
-			{dish: 'Naan', price: 3},
-			{dish: 'Rice', price: 2} ]
-		# dishes.each { |dish| expect(self).to receive(:puts).with(dish.name)}
-		# show_dishes
+	it 'can show all the dishes on the menu' do
+		
 	end
-
-	it 'expect order to be empty when created' do
-
-	end
-
-
-	it 'asks customer for dish order' do
-	# 	input_name = 'Please enter your name'
-	# 	expect(self).to receive(:puts).with(input_name)
-	# 	print_input_name
-	end
-
-	it 'asks customer for dish quantity' do
-	# 	expect(self).to receive(:gets).and_return("pete")
-	# 	user_input
-	end
-
-
+	
 end
