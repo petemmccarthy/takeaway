@@ -2,10 +2,10 @@ class Menu
 
 	def dishes
 		dishes = [
-		{name: 'Madras', price: 6.95},
-		{name: 'Tikka', price: 5.95},
-		{name: 'Naan', price: 2.95},
-		{name: 'Rice', price: 1.95}
+		{name: 'Madras', price: 7},
+		{name: 'Tikka', price: 6},
+		{name: 'Naan', price: 3},
+		{name: 'Rice', price: 2}
 		]
 	end
 

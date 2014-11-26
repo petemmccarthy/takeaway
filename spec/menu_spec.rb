@@ -10,10 +10,10 @@ describe 'menu' do
 	end
 
 	it 'can show the dishes of the menu' do
-		dishes = [ {dish: 'Madras', price: 6.95},
-			{dish: 'Tikka', price: 5.95},
-			{dish: 'Naan', price: 2.95},
-			{dish: 'Rice', price: 1.95} ]
+		dishes = [ {dish: 'Madras', price: 7},
+			{dish: 'Tikka', price: 6},
+			{dish: 'Naan', price: 3},
+			{dish: 'Rice', price: 2} ]
 		# dishes.each { |dish| expect(self).to receive(:puts).with(dish.name)}
 		# show_dishes
 	end
