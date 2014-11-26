@@ -30,8 +30,10 @@ describe Menu do
 		expect(menu.check_price("Rice")).to eq 2
 	end
 
-	# it 'can show all the dishes on the menu' do
-
-	# end
+	it 'can show all the dishes on the menu' do
+		menu.add_dish(dish)
+		expect(STDOUT).to receive(:puts).with("Rice", 2)
+		menu.display
+	end
 	
 end
