@@ -1,11 +1,11 @@
 class Dish
 
   def initialize(name)
-
+    @name = name
   end
 
   def name
-    "Rice"
+    @name
   end
 
 end
