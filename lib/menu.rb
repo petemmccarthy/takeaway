@@ -11,7 +11,11 @@ class Menu
 	end
 
 	def contains?(dish)
-		
+		dish_names.include?(dish)
+	end
+
+	def dish_names
+		@dishes.map { |dish| dish.name }
 	end
 
 end
