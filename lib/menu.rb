@@ -1,4 +1,11 @@
-# class Menu
+class Menu
 
+	# def initialize
+	# 	@dishes = []
+	# end
 
-# end
+	def dishes
+		@dishes = []
+	end
+
+end
