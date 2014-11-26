@@ -10,4 +10,8 @@ class Menu
 		@dishes << dish
 	end
 
+	def contains?(dish)
+		
+	end
+
 end

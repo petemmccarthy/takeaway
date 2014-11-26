@@ -5,7 +5,7 @@ describe Dish do
   let (:rice_dish)   { Dish.new("Rice", 2) }
   let (:madras_dish) { Dish.new("Madras", 7) }
 
-  it 'can have a name' do
+  it 'has a name' do
     expect(rice_dish.name).to eq "Rice"
     expect(madras_dish.name).to eq "Madras"
   end

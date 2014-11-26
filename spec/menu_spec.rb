@@ -16,9 +16,14 @@ describe Menu do
 		expect(menu.dishes).to eq [dish]
 	end
 
-	# it 'can delete dishes from the menu' do
-		
-	# end
+	it 'should know if it contains a particular dish' do
+		menu.add_dish(dish)
+		expect(menu.contains?(dish.name)).to be true
+	end
+
+	it 'should know if it doesnt contain a particular dish' do
+
+	end
 
 	# it 'can show all the dishes on the menu' do
 		
