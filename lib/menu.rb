@@ -8,4 +8,8 @@ class Menu
 		@dishes = []
 	end
 
+	def add_dish(dish)
+		
+	end
+
 end
