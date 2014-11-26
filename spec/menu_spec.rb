@@ -25,8 +25,13 @@ describe Menu do
 		expect(menu.contains?(dish.name)).to be false
 	end
 
+	it 'should display the price of the dish given the name' do
+		menu.add_dish(dish)
+		expect(menu.check_price("Rice")).to eq 2
+	end
+
 	# it 'can show all the dishes on the menu' do
-		
+
 	# end
 	
 end
