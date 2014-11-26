@@ -22,7 +22,7 @@ describe Menu do
 	end
 
 	it 'should know if it doesnt contain a particular dish' do
-		
+		expect(menu.contains?(dish.name)).to be false
 	end
 
 	# it 'can show all the dishes on the menu' do
