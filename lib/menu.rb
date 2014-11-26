@@ -1,15 +1,13 @@
 class Menu
 
-	# def initialize
-	# 	@dishes = []
-	# end
+	attr_reader :dishes
 
-	def dishes
+	def initialize
 		@dishes = []
 	end
 
 	def add_dish(dish)
-		
+		@dishes << dish
 	end
 
 end

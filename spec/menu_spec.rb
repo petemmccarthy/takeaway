@@ -3,7 +3,7 @@ require 'menu'
 describe Menu do
 
 	let (:menu) { Menu.new }
-	let (:dish) { double :dish }
+	let (:dish) { double :dish, :name => "Rice", :price => 2 }
 
 	it 'is empty when created' do
 		menu = Menu.new
@@ -12,8 +12,6 @@ describe Menu do
 	end
 
 	it 'can add dishes' do
-		menu = Menu.new
-		dish = Dish.new("Rice", 2)
 		menu.add_dish(dish)
 		expect(menu.dishes).to eq [dish]
 	end
