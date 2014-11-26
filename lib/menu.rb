@@ -18,4 +18,8 @@ class Menu
 		@dishes.map { |dish| dish.name }
 	end
 
+	def check_price(name)
+		@dishes.select { |dish| dish.name == name}.first.price
+	end
+
 end
