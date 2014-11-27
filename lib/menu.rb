@@ -22,4 +22,8 @@ class Menu
 		@dishes.select { |dish| dish.name == name}.first.price
 	end
 
+	def display_menu
+		
+	end
+
 end
