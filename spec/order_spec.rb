@@ -2,10 +2,11 @@ require 'order'
 
 describe Order do
   
-  it 'is empty when created' do
+  it 'does not have any items when created' do
     new_order = Order.new
-    expect(new_order).to eq []
+    expect(new_order.items).to be_empty
   end
+  
 
 
 end
