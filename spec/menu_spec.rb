@@ -32,6 +32,7 @@ describe Menu do
 
 	it 'can show all the dishes on the menu' do
 		menu.add_dish(dish)
+		allow(STDOUT).to receive(:puts)
 		expect(STDOUT).to receive(:puts).with("Rice, 2")
 		menu.display_menu
 	end
