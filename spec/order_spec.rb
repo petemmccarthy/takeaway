@@ -13,9 +13,9 @@ describe Order do
     expect(new_order.order_total).to be 0
   end
 
-  it 'can have dishes added to it by a customer' do
+  it 'can have dishes added to it' do
     new_order.add(dish)
-    expect(new_order.contains?(dish.name)).to be true
+    expect(new_order.items.include?(dish)).to be true
   end
 
 end

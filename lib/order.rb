@@ -1,3 +1,5 @@
+# require_relative 'dish'
+
 class Order
 
   attr_accessor :items, :order_total
@@ -7,5 +9,8 @@ class Order
     @order_total = 0
   end
 
+  def add(dish)
+    @items.merge(dish)
+  end
 
 end
