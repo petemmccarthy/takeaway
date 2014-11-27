@@ -6,6 +6,6 @@ class Order
     @items = {}
   end
 
-
+  
 
 end
