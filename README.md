@@ -1,4 +1,4 @@
 Takeaway
 ========
 
-Takeaway program using Twilio API to send confirmation text.
+Takeaway program built in Ruby, tested with Rspec. The Twilio API is used to send an order confirmation via text to a given customer number when complete.
