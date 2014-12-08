@@ -9,7 +9,7 @@ describe Order do
     expect(new_order.items).to be_empty
   end
   
-  it 'should have a total of zero when created' do
+  it 'should have a total price of zero when created' do
     expect(new_order.order_total).to be 0
   end
 
