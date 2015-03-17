@@ -1,9 +1,6 @@
 class Takeaway
 
- 	# def hungry?
-
- 	# end	
-
-
+ 	def hungry?
+  end
 
 end

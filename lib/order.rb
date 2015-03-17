@@ -5,12 +5,12 @@ class Order
   attr_accessor :items, :order_total
 
   def initialize
-    @items = {}
+    @items = []
     @order_total = 0
   end
 
   def add(dish)
-    @items.merge(dish)
+    @items.push(dish)
   end
 
 end
